@@ -34,19 +34,21 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <Switch>
-          <Route path="/login">
-            <Login />
-          </Route>
-          <Route path="/checkout">
-            <Header />
-            <Checkout />
-          </Route>
-          <Route path="/">
-            <Header />
-            <Home />
-          </Route>  
-        </Switch>
+        <main>
+          <Switch>
+            <Route path="/login">
+              <Login />
+            </Route>
+            <Route path="/checkout">
+              <Header />
+              <Checkout />
+            </Route>
+            <Route path="/">
+              <Header />
+              <Home />
+            </Route>  
+          </Switch>
+        </main>
       </div>
     </Router>
   );
