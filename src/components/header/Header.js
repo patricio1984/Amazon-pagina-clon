@@ -40,8 +40,8 @@ const Header = () => {
                             <span className="header_optionLine2">Orders</span>
                         </div>
                         <div className="header_option">
-                            <span className="header_optionLine1">Your</span>
-                            <span className="header_optionLine2">Prime</span>
+                            <span className="header_optionLine1 header_prime">Your</span>
+                            <span className="header_optionLine2 header_prime">Prime</span>
                         </div>
                         <Link to="/checkout">
                             <div className="header_optionBasket">
@@ -51,6 +51,7 @@ const Header = () => {
                         </Link>
                     </div>
                 </nav>
+              
             </div>
         </header>
    

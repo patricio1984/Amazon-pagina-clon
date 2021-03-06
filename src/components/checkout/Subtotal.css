@@ -30,3 +30,9 @@
     color: #111;
 
 }
+
+@media (max-width:480px) {
+    .subtotal {
+        width: 250px;
+    }
+}

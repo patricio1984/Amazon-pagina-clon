@@ -3,9 +3,10 @@
     display: flex;
     align-items: center;
     background-color: #131921;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 100;
+    width: 100%;
 }
 
 .header_logo {
@@ -69,4 +70,19 @@
     margin-left: 10px;
     margin-right: 10px;
     color: #fff;
+}
+
+@media (max-width:680px) {
+    .header_searchInput {
+        display: none;
+    }
+
+    .header_searchIcon {
+        visibility: hidden;
+        display: none !important;
+    }
+
+    .header_prime {
+        display: none;
+    }
 }
