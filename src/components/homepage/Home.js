@@ -1,8 +1,8 @@
 import React from 'react';
 import "./Home.css";
-import Amazon_banner from "./assets/amazon_banner.webp";
+import Amazon_banner from "../../assets/amazon_banner.webp";
 import Product from "./Product";
-import Lean from "./assets/lean.webp";
+import Lean from "../../assets/lean.webp";
 import { v4 as uuidv4 } from 'uuid';
 
 const Home = () => {
