@@ -6,7 +6,7 @@ import CheckoutProduct from "./CheckoutProduct";
 
 const Checkout = () => {
 
-    const [ {basket, user} ] = useStateValue();
+    const [ {basket, user}, dispatch ] = useStateValue();
 
     return (
         <div className="checkout">
