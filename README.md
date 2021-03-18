@@ -1,4 +1,4 @@
-###Página clon de Amazon
+#Página clon de Amazon
 
 Este proyecto fue realizado íntegramente en React.js. Para la funcionalidad de agregar productos al carro de compras se utilizaron hooks, principalmente el useContext para obtener información producto y del usuario ingresado mediante login, así como también el useReducer para realizar los dispacth de la data solicitada.
 La base de datos y el hosting fue realizado en Firebase. La utilidad de pago por tarjeta de crédito trabaja con la librería npm de Stripe. Los pedidos realizados y abonados a través del checkout pueden ser observados a través de la sección de Orders (los datos son guardados en la base de datos). También se utilizó axios para conectar el backend de firebase con el front end de React.
